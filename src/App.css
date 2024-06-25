@@ -1,0 +1,99 @@
+
+  
+  .app {
+    text-align: center;
+  }
+
+  .Header {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    height: 100px;
+  }
+
+  .textEdit {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 15px;
+    margin-top: 15px;
+  }
+
+  body {
+    /* background: white; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    background: rgb(179,175,13);
+    background: linear-gradient(90deg, rgba(179,175,13,1) 0%, rgba(64,153,5,0.7469581582633054) 35%, rgba(255,156,0,1) 100%);
+    margin: 0% 10%;
+  }
+
+  #appName {
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .quote {
+    margin-bottom: 50px;
+    font-size: 5rem;
+    color: white;
+  }
+  
+  .search-input {
+    color: green;
+  }
+  
+  .searchInput {
+    outline: none;
+    background: none;
+    border: 1px solid #65a765;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    width: 300px;
+    color: black;
+  }
+  
+
+  .searchComponent {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .ingredientButton {
+    background: #65a765;
+    color: #fff;
+    border: none;
+    padding: 0.55rem;
+    cursor: pointer;
+  }
+
+  .searchWrapper {
+    background: #cdffcd;
+    padding: 2rem;
+    border-radius: 5px;
+  }
+
+  .Ingredient {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #65a765;
+    color: #fff;
+    padding: 0.5rem 0.75rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+
+  .findRecipeButton {
+    border-radius: 50%;
+    padding: 10px;
+    margin-top: 20px;
+    color: white;
+    background-color: green;
+  }
