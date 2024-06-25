@@ -69,4 +69,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 # Recipe-App
-# Recipe-App
+
+A React JS app utilizing the Spoonacular API that generates random recipes given the ingredients that the user inputs. Random popular recipes are also given on the home page. Recipe pages are provided with a summary of the dish, instructions, and ingredients that are needed.
